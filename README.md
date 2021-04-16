@@ -1,1 +1,1 @@
-# giridmap_painter
+# gridmap_painter
