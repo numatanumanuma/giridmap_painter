@@ -1,0 +1,5 @@
+<launch>
+
+   <node name="gridmap_painter_node" pkg="gridmap_painter" type="gridmap_painter_node" output="screen"/>
+
+</launch>
