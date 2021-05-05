@@ -25,6 +25,7 @@ void Painter::paintGrid(){
     mapTF::Point2D p;
     map_.getNowPoint(p);
     cv::circle(map_.image, cv::Point(p.x_p, p.y_p), 5, cv::Scalar(b, g, r), 2, 4);
+    // map_.dot_image(cv::Point(p.x_p, p.y_p)) = cv::Vec3d(b, g, r);
 }
 
 void Painter::printMapInfo(){
